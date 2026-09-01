@@ -1,0 +1,34 @@
+public class Main
+{
+	public static void main(String[] args) {
+
+
+
+
+
+
+
+
+//    String email = "usuario@dominio.com";
+//    boolean contemArroba = email.contains("@");
+//    System.out.println(contemArroba);
+    
+//    String texto = "Olá mundo!";
+//    boolean contemMundo = texto.contains("mundo");
+//    System.out.println(contemMundo);
+
+//    String palavra = "java";
+//    char primeiroChar = palavra.charAt(3);
+//    System.out.println(primeiroChar);
+
+//    String nome = "Gabriel";
+//    String nomeMaiusculo = nome.toUpperCase();
+//    String nomeMinusculo = nome.toLowerCase();
+//    System.out.println(nomeMaiusculo);
+//    System.out.println(nomeMinusculo);
+
+//		String texto = "Java";
+//		int tamanho = texto.length();
+//		System.out.println(tamanho);
+	}
+}
