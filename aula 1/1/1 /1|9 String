@@ -1,34 +1,56 @@
+import java.time.LocalDate;
+import java.time.DayOfWeek;
+
 public class Main
 {
-	public static void main(String[] args) {
+	public static void main(String[] args) {   
 
-
-
-
-
-
-
-
-//    String email = "usuario@dominio.com";
-//    boolean contemArroba = email.contains("@");
-//    System.out.println(contemArroba);
+    LocalDate dataNascimento = LocalDate.of(2005,9,6);
+    System.out.println("Data de Nascimento: "+ dataNascimento);
+	    
+    LocalDate dataAtual = LocalDate.now();
+   System.out.println("Data atual : " + dataAtual);
     
-//    String texto = "Olá mundo!";
-//    boolean contemMundo = texto.contains("mundo");
-//    System.out.println(contemMundo);
+    int dia = dataAtual.getDayOfMonth();
+   System.out.println("Dia do mês: " + dia);
+    
+    int mes = dataAtual.getMonthValue();
+    System.out.println("mês : " + mes);
+    
+    int ano = dataAtual.getYear();
+    System.out.println("Ano: "+ ano);
+    DayOfWeek diaDaSemana = dataAtual.getDayOfWeek();
+    System.out.println("Dia da semana: " + diaDaSemana);
 
-//    String palavra = "java";
-//    char primeiroChar = palavra.charAt(3);
-//    System.out.println(primeiroChar);
+    String email = "usuario@dominio.com";
+    int indiceArroba = email.indexOf("@");
+    System.out.println(indiceArroba);
+    
+    String frase = "Programação em java";
+    int indicejava = frase.indexOf("java");
+    System.out.println(indicejava);
 
-//    String nome = "Gabriel";
-//    String nomeMaiusculo = nome.toUpperCase();
-//    String nomeMinusculo = nome.toLowerCase();
-//    System.out.println(nomeMaiusculo);
-//    System.out.println(nomeMinusculo);
+    String email = "usuario@dominio.com";
+    boolean contemArroba = email.contains("@");
+    System.out.println(contemArroba);
+    
+    String texto = "Olá mundo!";
+    boolean contemMundo = texto.contains("mundo");
+    System.out.println(contemMundo);
 
-//		String texto = "Java";
-//		int tamanho = texto.length();
-//		System.out.println(tamanho);
+    String palavra = "java";
+    char primeiroChar = palavra.charAt(3);
+    System.out.println(primeiroChar);
+
+    String nome = "Gabriel";
+    String nomeMaiusculo = nome.toUpperCase();
+    String nomeMinusculo = nome.toLowerCase();
+    System.out.println(nomeMaiusculo);
+    System.out.println(nomeMinusculo);
+
+	String texto = "Java";
+    int tamanho = texto.length();
+    System.out.println(tamanho);
 	}
 }
+
