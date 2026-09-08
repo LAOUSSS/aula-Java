@@ -1,0 +1,136 @@
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
+import java.util.Scanner;
+import java.time.Period;
+
+public static void main(String[] args){
+    Scanner scanner = new Scanner(System.in);
+    
+    System.out.println("Digite um numer para ver sua tabuada: ");
+    int numero = scanner.nextInt();
+    
+    System.out.println("Tabuada do" +numero + ".");
+    
+    for(int i=1 ; i<=10 ; i++){
+        int resultado = numero*i;
+        System.out.println(numero + "x" + i +"=" + resultado);
+    }
+    scanner.close();
+}
+
+//public static void main(String[] args){
+//    for(int i = 1;i <= 20;i++){
+//        if(i % 2 == 0){
+//        System.out.println("numero par: " + i);
+//    }else{
+//        
+//    System.out.println("numero impar:" + i);
+//    }
+//    }
+//}
+
+//public static void main(String[] args){
+//    Scanner scanner = new Scanner(System.in);
+//    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+    
+//    System.out.println("digite uma data no formato dd/MM/yyyy");
+//    String dataNascimentoString = scanner.nextLine();
+    
+//    try{
+//        LocalDate dataNascimento = LocalDate.parse(dataNascimentoString,formatter);
+//        LocalDate dataAtual = LocalDate.now();
+        
+//        Period idade = Period.between(dataNascimento, dataAtual);
+        
+//        System.out.println("Sua data de nascimento: " +dataNascimento.format(formatter));
+//        System.out.println("Data atual: " + dataAtual.format(formatter));
+//        System.out.println("Sua idade é de " + idade.getYears() + " anos.");
+        
+//}       catch (DateTimeParseException e){
+//        System.err.println("Erro:Formato de data inváçido. Use dd/MM/yyyy.");
+//       System.err.println("Detalhe do erro" + e.getMessage());
+//}finally {
+//    scanner.close();
+        
+//}
+//}
+
+
+
+
+
+
+//public static void main (String[] args) {
+//    Scanner scanner = new Scanner(System.in);
+    
+//    System.out.println("Digite uma data no formato dd/MM/yyyy: ");
+//    String dataString = scanner.nextLine();
+    
+//    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+    
+//    try{
+    
+//    LocalDate dataConvertida = LocalDate.parse(dataString,formatter);
+//    System.out.println("Data convertida para LocalDate:" + dataConvertida);
+    
+//    String dataFormatadaDisplay = dataConvertida.format(formatter);
+//    System.out.println("Data formatada para exibição (dd/MM/yyyy):" + dataFormatadaDisplay);
+    
+//    }catch(DateTimeParseException e){
+//        System.err.println("Erro ao converter a data. Verifique o formato informado");
+//        System.err.println("detalhe do erro : "+ e.getMessage());
+//    }finally{
+//        scanner.close();
+//    }
+    
+//}
+
+
+
+
+
+
+
+
+
+//        public static void main(String[]args){
+ //           LocalDate dataOriginal= LocalDate.of(2023,10,27);
+//            
+//            DateTimeFormatter formatadorPadraoBrasil = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+///            
+//            String dataFormatada = dataOriginal.format(formatadorPadraoBrasil);
+           
+//            System.out.println("Data original: " + dataOriginal);
+//            System.out.println("Data formatada (dd/MM/yyyy):" + dataFormatada);
+//        }    
+        
+
+
+
+
+
+//public static void main(String[] args) {
+    
+   // LocalDate dataOriginal = LocalDate.of(2023, 10, 27);
+
+   // System.out.println("Data original: " + dataOriginal);
+    // Adicionando períodos
+   // LocalDate dataMais5Dias = dataOriginal.plusDays(5);
+   // System.out.println("Adicionando 5 dias: " + dataMais5Dias);
+   // LocalDate dataMais2Meses = dataOriginal.plusMonths(2); 
+   // System.out.println("Adicionando 2 meses: " + dataMais2Meses);
+    //LocalDate dataMais1Ano = dataOriginal.plusYears(1);
+    //System.out.println("Adicionando 1 ano: " + dataMais1Ano);
+    // Removendo períodos
+   // LocalDate dataMenos3Dias = dataOriginal.minusDays(3);
+   // System.out.println("Removendo 3 dias: " + dataMenos3Dias);
+  //  LocalDate dataMenos1Mes = dataOriginal.minusMonths(1);
+  //  System.out.println("Removendo 1 mês: " + dataMenos1Mes);
+  //  LocalDate dataMenos2Anos = dataOriginal.minusYears(2);
+    //System.out.println("Removendo 2 anos: " + dataMenos2Anos);
+    // Verificando que a data original não foi alterada
+    //System.out.println("Data original após modificações: " + dataOriginal);
+
+//}
