@@ -1,0 +1,65 @@
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args){
+
+        // Scanner scanner = new Scanner (System.in);
+        
+        // double[] notas = new double[5];
+        
+        // System.out.println("Por favor digite as 5 notas: ");
+        
+        // for (int i = 0 ; i < notas.length; i++) {
+        //     System.out.println("Digite a nota " +(i + 1) + ": ");
+        //     notas[i] =scanner.nextDouble();
+        // }
+        
+        // scanner.close();
+        
+        // System.out.println("\nNotas cadastradas: ");
+        
+        // for (int i = 0; i < notas.length; i++) {
+        //     System.out.println("Nota " + (i + 1) + ": " + notas[i]);
+        // }
+
+
+
+
+
+        
+        // int[] numeros = {10, 20, 30, 40, 50};
+        
+        // for (int numero : numeros) {
+        //     System.out.println("Número: " + numero);
+        // }
+
+    
+    
+    
+    
+        // String[] frutas = {"Maçã", "Banana", "Laranja", "Uva"};
+        
+        // for (int i = 0; i < frutas.length; i++) {
+        //     System.out.println("Fruta na posição " + i + ": " + frutas[i]);
+        // }
+
+
+
+
+
+    //     String[] frutas = {"Maçã", "Banana", "Laranja", "Uva"};
+	
+	   // int tamanho = frutas.length;
+	
+	   // int ultimoIndice = frutas.length - 1;
+	
+	   // String ultimaFruta = frutas[ultimoIndice];
+	
+    //     System.out.println("tamanho do array:" + tamanho);
+	   // System.out.println("Ultimo indice " + ultimoIndice);
+	   // System.out.println("ultimaFruta" + ultimaFruta);
+    
+        
+    }
+}
